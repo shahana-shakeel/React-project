@@ -9,7 +9,10 @@ function App() {
       alert("Counter cannot be more than 20")
       return
     }
-   setCounter(counter + 1)
+    setCounter(prev => prev + 1)
+    setCounter(prev => prev + 1)
+    setCounter(prev => prev + 1)
+    setCounter(prev => prev + 1)
   }
 
   function decreaseValue(){
